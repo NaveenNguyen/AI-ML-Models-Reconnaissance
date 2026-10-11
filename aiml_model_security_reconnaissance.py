@@ -19,7 +19,7 @@ from pathlib import Path
 from typing import Any
 
 TOOL_NAME = "AI/ML Model Security Reconnaissance Toolkit"
-TOOL_VERSION = "3.3"
+TOOL_VERSION = "1.0"
 MODEL_TYPES = {
     "computer-vision": ("Computer Vision", [".onnx", ".pt", ".pth", ".safetensors", ".tflite", ".keras", ".h5", ".hdf5"], "classification, detection, segmentation, pose, depth, OCR"),
     "language-llm": ("Language / LLM", [".safetensors", ".gguf", ".pt", ".pth", ".onnx", ".bin", "SavedModel directory"], "LLMs, encoders, embeddings, text classifiers"),
