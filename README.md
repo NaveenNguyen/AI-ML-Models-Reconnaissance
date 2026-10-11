@@ -1,6 +1,6 @@
 # AI/ML Model Security Reconnaissance Toolkit
 
-`aiml_model_security_recon.py` is a pentester-oriented reconnaissance utility for analyzing AI/ML model artifacts before deeper security testing.
+`aiml_model_security_reconnaissance.py` is a pentester-oriented reconnaissance utility for analyzing AI/ML model artifacts before deeper security testing.
 
 It is designed for:
 
