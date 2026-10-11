@@ -413,8 +413,8 @@ You do **not** need every dependency if you only work with one model format.
 Clone the repository:
 
 ```bash
-git clone https://github.com/<YOUR_GITHUB_USERNAME>/AI-ML-Model-Security-Recon.git
-cd AI-ML-Model-Security-Recon
+git clone https://github.com/NaveenNguyen/AI-ML-Models-Reconnaissance.git
+cd AI-ML-Models-Reconnaissance
 ```
 
 Install the default dependencies:
@@ -469,7 +469,7 @@ usage: aiml_model_security_recon.py [-h]
                                     [--json JSON_PATH]
                                     [model]
 
-AI/ML Model Security Reconnaissance Toolkit v3.3
+AI/ML Model Security Reconnaissance Toolkit
 
 Pentester-oriented reconnaissance for AI/ML artifacts.
 
@@ -643,9 +643,7 @@ A mismatch means the artifacts are not byte-for-byte identical.
 
 ## Robust Metadata Parsing and Recon Completeness
 
-Version 3.2 hardens ONNX metadata handling.
-
-A malformed or unusual metadata value must not stop the rest of the reconnaissance. For example, metadata values such as:
+The toolkit uses defensive ONNX metadata handling so a malformed or unusual metadata value does not stop the rest of the reconnaissance. For example, metadata values such as:
 
 ```text
 08
@@ -1582,9 +1580,9 @@ model replacement
 
 
 
-# Version 3.3 – Real-Image Forward Pass and Pentester-Friendly Output
+# Real-Image Forward Pass and Pentester-Friendly Output
 
-Version 3.3 integrates the second-stage forward-pass reconnaissance workflow into the main toolkit.
+The toolkit integrates real-image forward-pass reconnaissance into the main workflow.
 
 The default console output is now intentionally concise. Large raw dictionaries, weight tensor lists, and full metadata structures are still preserved in the JSON report and can be printed with:
 
@@ -1846,7 +1844,7 @@ comparison results
 A clean GitHub repository could look like:
 
 ```text
-AI-ML-Model-Security-Recon/
+AI-ML-Models-Reconnaissance/
 │
 ├── aiml_model_security_recon.py
 ├── README.md
