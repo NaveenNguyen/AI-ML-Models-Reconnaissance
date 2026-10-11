@@ -1,4 +1,4 @@
-# AI/ML Model Security Reconnaissance Toolkit v3.3
+# AI/ML Model Security Reconnaissance Toolkit
 # Python 3.10+ recommended
 #
 # These packages provide broad support for the model formats handled by
